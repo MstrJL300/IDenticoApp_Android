@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/topLayout"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:keepScreenOn="true">
+
+    <!--VISTA DE CAMARA-->
+    <co.com.identico.appcarnet3.Camera.CameraSourcePreview
+        android:id="@+id/preview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+    </co.com.identico.appcarnet3.Camera.CameraSourcePreview>
+
+    <ImageView
+        android:id="@+id/cuadrado_imageView"
+        android:layout_width="380px"
+        android:layout_height="380px"
+        android:src="@drawable/rectangle_2"
+        app:layout_anchor="@+id/preview"
+        app:layout_anchorGravity="center" />
+
+    <View
+        android:id="@+id/snackBar_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</android.support.design.widget.CoordinatorLayout>

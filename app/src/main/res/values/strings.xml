@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">IDéntico</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- Loading -->
+    <string name="label.loading.tittle">Cargando</string>
+    <string name="label.loading.message">Espere por favor…</string>
+
+    <!-- menu -->
+    <string name="action_settings">Settings</string>
+    <string name="action_main">Inicio</string>
+    <string name="action_info">Información</string>
+    <string name="action_login_carnet">Adicionar Carnet</string>
+    <!--TEST-->
+    <string name="action_qr_scan">Escanear QR</string>
+    <string name="ok">OK</string>
+    <string name="low_storage_error">Face detector dependencies cannot be downloaded due to low device storage</string>
+    <string name="no_camera_permission">This application cannot run because it does not have the camera permission.  The application will now exit.</string>
+    <string name="qr_result">Escaneando...</string>
+    <!--TEST-->
+    <string name="action_Salir">Salir</string>
+    <string name="terminios_link"><u>términos de servicio</u>.</string>
+
+    <string name="title_activity_welcome">WelcomeActivity</string>
+    <string name="title_activity_carnet_foto">CarnetFotoActivity</string>
+
+    <!-- Ad -->
+    <!--<string name="admob_app_id">ca-app-pub-3940256099942544~3347511713</string>-->
+    <!--<string name="admob_banner_id">ca-app-pub-4054881126615976~9705858305</string>-->
+    <!--SAMPLE ADS-->
+    <string name="admob_app_id">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="admob_banner_id">ca-app-pub-3940256099942544/6300978111</string>
+
+    <!-- Textos -->
+    <string name="terminos"><![CDATA[ <p>
+IDENTICO S.A.S.. (“IDéntico", "nuestro", "nosotros" o "nuestros") ofrece servicio de, identificación virtual . Por favor lee nuestros Términos de servicio para entender los términos del uso de IDéntico Aceptas nuestros Términos de servicio ("Términos") al instalar, acceder o usar nuestras aplicaciones, servicios, funciones, software o sitio web (en conjunto, "Servicios").
+</p>
+<p> <b>Acerca de nuestros servicios</b><br><br>
+ <b>Registro.</b> Debes registrarte para usar nuestros Servicios con datos correctos, proporcionar correo electrónico  , nit y código ,  si cambias el teléfono celular la aplicación deberá reinstalada y proporcionar los datos de registros nuevamente.
+<br><b>Libreta de Carnet. </b>Nos proporcionas regularmente los datos para cada uno de los carnets que se registran en la aplicación , estos datos son enviados al correo electrónico registrados por el administrador de la plataforma.
+<br><b>Edad.</b> Debes tener por lo menos 13 años de edad para poder usar nuestros Servicios. Además de tener la edad mínima requerida para usar nuestros Servicios en virtud de la ley aplicable, si no tienes la edad suficiente para poder aceptar nuestros Términos en tu país, tu padre, madre o tutor deben aceptar nuestros Términos en tu nombre.
+<br><b>Dispositivos y software.</b> Debes proporcionar ciertos dispositivos, software y conexiones de datos que nosotros no proporcionamos para usar nuestros Servicios. Durante todo el tiempo que uses nuestros Servicios, aceptas descargar e instalar actualizaciones de nuestros Servicios, incluso de forma automática.
+<br><b>Tarifas e impuestos.</b> Los costos de los datos que se utilizan para el funcionamiento de la aplicación son asumidos por el usuario.</p>]]>
+</string>
+    <string name="welcome"><![CDATA[ <p>   Ahora IDéntico es una APP que emula la identificación plástica en identificación virtual
+mejorando la experiencia de nuestros clientes, adicionalmente contaremos con versiones que
+permitan involucran la mayor cantidad de usuarios finales, entendiendo los diferentes tipos de
+celulares que existen en el mercado.
+Ahora la identificación es portable, lleva tu identificación a todas partes.<br></p>
+<p>
+- Con el código QR generado por la aplicación podrá consultar la información en tiempo
+real de los datos del usuario.<br><br>
+- Permite el control de acceso a diferentes controladores desde la seguridad de su
+celular.<br><br>
+- La aplicación permite certificar la autenticidad de los usuarios , por medio de patrones
+de validación como códigos únicos , correos electrónicos y Nit.   </p>]]></string>
+
+    <string name="informacion"><![CDATA[ <p>   Ahora IDéntico es una APP que emula la identificación plástica en identificación virtual
+mejorando la experiencia de nuestros clientes, adicionalmente contaremos con versiones que
+permitan involucran la mayor cantidad de usuarios finales, entendiendo los diferentes tipos de
+celulares que existen en el mercado.
+Ahora la identificación es portable, lleva tu identificación a todas partes.<br></p>
+<p>
+- Con el código QR generado por la aplicación podrá consultar la información en tiempo
+real de los datos del usuario.<br><br>
+- Permite el control de acceso a diferentes controladores desde la seguridad de su
+celular.<br><br>
+- La aplicación permite certificar la autenticidad de los usuarios , por medio de patrones
+de validación como códigos únicos , correos electrónicos y Nit.   </p>
+<p>   Esta aplicación se desarrolló por
+    <a href="http://www.identico.com.co/">IDéntico</a> para IDéntico S.A.S 2018.<br></p>]]></string>
+    <!--content_carnet.xml-->
+    <string name="flip"> > </string>
+</resources>

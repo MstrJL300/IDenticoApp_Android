@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:weightSum="10">
+
+    <TextView
+        android:id="@+id/fecha"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:gravity="center_vertical|center_horizontal|bottom"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:text="Términos y condiciones"
+        android:textColor="@color/colorPrimaryDark"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:textSize="24sp" />
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/ScrollView01"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <View
+                android:id="@+id/view"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="1dp"  />
+
+            <LinearLayout
+                android:id="@+id/linearLayoutQr"
+                android:layout_width="match_parent"
+                android:layout_height="290dp"
+                android:layout_below="@+id/view">
+
+                <ImageView
+                    android:id="@+id/imageQr"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+<!--TEST-->
+            <!--linearLayoutQr2-->
+            <LinearLayout
+                android:id="@+id/linearLayoutQr2"
+                android:layout_width="match_parent"
+                android:layout_height="290dp"
+                android:layout_below="@+id/view"
+                android:visibility="gone">
+
+                <ImageView
+                    android:id="@+id/imageQr2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+<!--TEST-->
+
+            <TextView
+                android:id="@+id/textDataCarnet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contextClickable="false"
+                android:gravity="center_vertical"
+                android:paddingLeft="18dp"
+                android:paddingRight="18dp"
+                android:paddingTop="10dp"
+                android:text="@string/terminos" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/LinearLite"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/buttonVolver3"
+            android:layout_width="214dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/colorPrimaryDark"
+            android:elevation="0dp"
+            android:onClick="cerrar"
+            android:text="CERRAR"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light" />
+
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/LinearPro"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:layout_marginTop="10dp"
+
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonIzquierdaQr"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="40dp"
+            android:layout_marginBottom="15dp"
+            android:background="@color/colorPrimaryDark"
+            android:elevation="0dp"
+            android:onClick="qr"
+            android:text="QR"
+            android:layout_marginRight="5pt"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light" />
+        <Button
+            android:id="@+id/buttonIzquierdaInfo"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="40dp"
+            android:layout_marginBottom="15dp"
+            android:background="@color/colorPrimaryDark"
+            android:elevation="0dp"
+            android:onClick="info"
+            android:text="Info"
+            android:layout_marginRight="5pt"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light" />
+        <Button
+            android:id="@+id/buttonVolver4"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="40dp"
+            android:layout_marginLeft="5pt"
+            android:layout_marginBottom="15dp"
+            android:background="@color/colorPrimaryDark"
+            android:elevation="0dp"
+            android:onClick="cerrar"
+            android:text="CERRAR"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light" />
+
+    </LinearLayout>
+</LinearLayout>
